@@ -1,0 +1,88 @@
+{
+    "test" :
+[
+{
+    "jsonrpc":"2.0",
+    "method":"createPerson",
+    "params":["Bob", 13],
+    "id":0
+}
+,
+{
+    "jsonrpc":"2.0",
+    "method":"createPerson",
+    "params":["Alice", 24],
+    "id":1
+}
+,
+{
+    "jsonrpc":"2.0",
+    "method":"updatePerson",
+    "params":["Bob", "Jake", 14],
+    "id":2
+}
+,
+{
+    "jsonrpc":"2.0",
+    "method":"createPerson",
+    "params":["Luke", 36],
+    "id":3
+}
+,
+{
+    "jsonrpc":"2.0",
+    "method":"createPerson",
+    "params":["George", 63],
+    "id":4
+}
+,
+{
+    "jsonrpc":"2.0",
+    "method":"listPerson",
+    "params":null,
+    "id":5
+}
+,
+{
+    "jsonrpc":"2.0",
+    "method":"createAccount",
+    "params":["George", "github.com"],
+    "id":6
+}
+,
+{
+    "jsonrpc":"2.0",
+    "method":"createAccount",
+    "params":["George", "mail.google.com"],
+    "id":7
+}
+,
+{
+    "jsonrpc":"2.0",
+    "method":"readAccount",
+    "params":["George", "gosuslugi.ru"],
+    "id":8
+}
+,
+{
+    "jsonrpc":"2.0",
+    "method":"listAccount",
+    "params":["George"],
+    "id":9
+}
+,
+{
+    "jsonrpc":"2.0",
+    "method":"deletePerson",
+    "params":["George"],
+    "id":10
+}
+,
+{
+    "jsonrpc":"2.0",
+    "method":"listPerson",
+    "params":null,
+    "id":11
+}
+]
+}

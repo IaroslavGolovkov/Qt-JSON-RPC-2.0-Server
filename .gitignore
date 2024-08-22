@@ -1,0 +1,4 @@
+/build
+/nlohmann
+/jsonrpccxx
+*.user*
